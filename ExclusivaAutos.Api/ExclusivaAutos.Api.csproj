@@ -11,7 +11,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
+    <ProjectReference Include="..\ExclusivaAutos.Application\ExclusivaAutos.Application.csproj" />
+    <ProjectReference Include="..\ExclusivaAutos.Infraestructure\ExclusivaAutos.Infraestructure.csproj" />
   </ItemGroup>
 
 </Project>
